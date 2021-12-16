@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "MagicSchoolOne";
+  src: local("MagicSchoolOne"),
+    url("./fonts/MagicSchoolOne.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Magik";
+  src: local("Magik"),
+    url("./fonts/Magik.TTF") format("truetype");
+  font-weight: normal;
+}
+
+/* base styles */
+body {
+  font-family: MagicSchoolOne;
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+  background: #293325;
+  color: #fff;
+}
+
+.normal-text {
+  font-family: Magik  ;
+}
