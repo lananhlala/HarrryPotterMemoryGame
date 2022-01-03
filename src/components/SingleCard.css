@@ -7,6 +7,9 @@
   display: block;
   border: 2px solid #fff;
   border-radius: 6px;
+  height: 251px;
+  width: 204px;
+  object-fit: contain;
 }
 
 /* front of card - the picture */
